@@ -1,13 +1,11 @@
-import Footer from './components/Footer'
-import MainContent from './components/MainContent'
-import Header from './components/Header'
+import Greeting from './components/greeting'
+import ProductInfo from './components/product_info'
 
 const App = () => {
   return (
     <>
-      <Header />
-      <MainContent />
-      <Footer />
+      <Greeting />
+      <ProductInfo />
     </>
   )
 }
