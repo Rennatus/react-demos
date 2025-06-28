@@ -1,6 +1,14 @@
+import Footer from './components/Footer'
+import MainContent from './components/MainContent'
+import Header from './components/Header'
+
 const App = () => {
   return (
-      <h1>Hello Vite + React</h1>
+    <>
+      <Header />
+      <MainContent />
+      <Footer />
+    </>
   )
 }
 export default App
