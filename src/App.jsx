@@ -1,18 +1,12 @@
-import Card from "./components/card.jsx"
+import Weather from "./components/weather.jsx";
+import UserStatus from "./components/user_status.jsx";
 
 const App = () => {
   return (
     <>
-      <h1>My Card</h1>
-      <Card>
-        <h2>Card Title</h2>
-        <p>This is some content for card 1</p>
-      </Card>
-      <Card>
-        <h2>Card Title</h2>
-        <p>This is some content for card 2</p>
-      </Card>
+      <Weather />
+      <UserStatus logged_in={true} is_admin={false} />
     </>
-  )
-}
-export default App
+  );
+};
+export default App;
