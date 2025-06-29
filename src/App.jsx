@@ -1,11 +1,13 @@
-import Weather from "./components/weather.jsx";
-import UserStatus from "./components/user_status.jsx";
+import StyledCard from "./components/style_card.jsx";
+import ProfileCard from "./components/profile_card.jsx";
+import IconConmponet from "./components/icon_conmponet.jsx";
 
 const App = () => {
   return (
     <>
-      <Weather />
-      <UserStatus logged_in={true} is_admin={false} />
+      <StyledCard />
+      <ProfileCard />
+      <IconConmponet />
     </>
   );
 };
