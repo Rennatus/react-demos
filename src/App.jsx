@@ -1,11 +1,11 @@
-import Greeting from './components/greeting'
-import ProductInfo from './components/product_info'
+import ProductLis from './components/product_list'
+import UserList from './components/user_list'
 
 const App = () => {
   return (
     <>
-      <Greeting />
-      <ProductInfo />
+      {/* <ProductLis /> */}
+      <UserList/>
     </>
   )
 }
