@@ -1,9 +1,13 @@
-import Switch from "./components/Switch";
+import BaseEffect from "./components/BaseEffect";
+import CounterEffect from "./components/CounterEffect";
+import FetchDateEffect from "./components/FetchDateEffect";
 
 const App = () => {
   return (
     <div>
-      <Switch />
+      <BaseEffect />
+      <CounterEffect />
+      <FetchDateEffect />
     </div>
   );
 };
