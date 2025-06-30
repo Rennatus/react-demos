@@ -1,9 +1,11 @@
-import EventDemo from "./components/event_demo";
+import Counter from "./components/Counter";
+import ShoppingList from "./components/ShoppingList";
 
 const App = () => {
   return (
     <>
-      <EventDemo />
+      <Counter />
+      <ShoppingList />
     </>
   );
 };
