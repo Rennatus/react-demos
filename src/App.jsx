@@ -1,12 +1,10 @@
-import Counter from "./components/Counter";
-import ShoppingList from "./components/ShoppingList";
+import CopyInput from "./components/CopyInput";
 
 const App = () => {
   return (
-    <>
-      <Counter />
-      <ShoppingList />
-    </>
+    <div>
+      <CopyInput />
+    </div>
   );
 };
 export default App;
