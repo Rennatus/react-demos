@@ -1,12 +1,9 @@
-import UpdateUser from "./components/UpdateUser";
-import UserProfile from "./components/UserProfile";
-import { UserProvider } from "./UserContext";
+import Counter from "./components/Counter";
 const App = () => {
   return (
-    <UserProvider>
-      <UserProfile />
-      <UpdateUser />
-    </UserProvider>
+    <>
+      <Counter />
+    </>
   );
 };
 export default App;
