@@ -1,14 +1,12 @@
-import BaseEffect from "./components/BaseEffect";
-import CounterEffect from "./components/CounterEffect";
-import FetchDateEffect from "./components/FetchDateEffect";
-
+import UpdateUser from "./components/UpdateUser";
+import UserProfile from "./components/UserProfile";
+import { UserProvider } from "./UserContext";
 const App = () => {
   return (
-    <div>
-      <BaseEffect />
-      <CounterEffect />
-      <FetchDateEffect />
-    </div>
+    <UserProvider>
+      <UserProfile />
+      <UpdateUser />
+    </UserProvider>
   );
 };
 export default App;
