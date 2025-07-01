@@ -1,11 +1,14 @@
-import FocusInput from "./components/FocusInput";
-import Timer from "./components/Timer";
+import FetchComponent from "./components/FetchComponent";
+import FormComponent from "./components/FormComponent";
+import ToggleComponent from "./components/ToggleComponent";
 const App = () => {
   return (
-    <>
-      <FocusInput />
-      <Timer />
-    </>
+    <div>
+      <h1>React Custom Hooks Examples</h1>
+      <FetchComponent />
+      <FormComponent />
+      <ToggleComponent />
+    </div>
   );
 };
 export default App;
