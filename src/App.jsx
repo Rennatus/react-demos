@@ -1,9 +1,9 @@
-import UniqueId from "./components/UniqueId";
+import Counter from "./components/Counter";
+
 const App = () => {
   return (
     <div>
-      <UniqueId />
-      <UniqueId />
+      <Counter />
     </div>
   );
 };
